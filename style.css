@@ -53,7 +53,7 @@ html, body {
 }
 
 .thankyou-image-block {
-  background-image: url("christmas_gifts.jpg");
+  background-image: url("christmas_gifts_tiny.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
