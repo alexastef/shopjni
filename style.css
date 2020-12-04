@@ -23,6 +23,10 @@ html, body {
   padding: 0px;
 }
 
+.col-md {
+  padding: 0;
+}
+
 .text-block {
   color: 	#303030;
   text-align: center;
@@ -48,10 +52,27 @@ html, body {
   height: 100vh;
 }
 
+.thankyou-image-block {
+  background-image: url("christmas_gifts.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+
+.form-block {
+  padding: 10px;
+}
 
 @media (max-width: 575px) {
   .image-block {
     display: none;
+  }
+
+  .thankyou-image-block {
+    height: 30vh;
   }
 
   .col-md {
@@ -69,6 +90,16 @@ html, body {
 
   .text-block {
     padding-top: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .thankyou-image-block {
+    height: 30vh;
+  }
+
+  .text-block {
+    padding-top: 5vh;
   }
 }
 
