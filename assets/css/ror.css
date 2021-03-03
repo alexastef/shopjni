@@ -16,6 +16,7 @@ html, body {
 
 .main-content-wrapper {
   background-color: var(--darkBlue);
+  margin-bottom: 0;
 }
 
 .item-img {
