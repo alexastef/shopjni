@@ -49,6 +49,12 @@ html, body {
   }
 }
 
+@media (min-height: 912px) {
+  .main-content-wrapper {
+    height: 85vh;
+  }
+}
+
 
 
 
