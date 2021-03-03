@@ -16,7 +16,7 @@ html, body {
 
 .main-content-wrapper {
   background-color: var(--darkBlue);
-  height: 95vh;
+  height: 100vh;
 }
 
 .item-img {
